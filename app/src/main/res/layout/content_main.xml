@@ -48,13 +48,14 @@
         android:layout_height="match_parent"
         android:layout_below="@id/button">
 
-    <TextView
-        android:id="@+id/showevent"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="Event..."
-        android:textSize="20dp"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/showevent"
+            android:scrollbars="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+
 
     </RelativeLayout>
 
